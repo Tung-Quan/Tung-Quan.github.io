@@ -1,6 +1,12 @@
 // Dữ liệu dự án từ CV của bạn 
 const projects = [
     {
+        title: "Real-time Chat Ecosystem",
+        description: "Hệ thống nhắn tin tức thời hỗ trợ truyền tải hình ảnh, trạng thái online/offline và quản lý tin nhắn chưa đọc thông qua Socket.IO.",
+        technologies: "React, Socket.io, Tailwind CSS, Express, MongoDB",
+        link: "https://shorturl.at/F5jWC",
+    },
+    {
         title: "Salinity Intrusion Monitoring",
         description: "Ứng dụng PERN-stack theo dõi và dự báo chỉ số mặn, sử dụng RESTful APIs bảo mật và xác thực JWT.",
         technologies: "PostgreSQL (Neon), Express, React, Node.js",
