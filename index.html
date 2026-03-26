@@ -1,64 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lâm Minh Tùng Quân</title>
-  <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/svg+xml" href="/icon.jpg " />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lam Minh Tung Quan | Software Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Lam Minh Tung Quan, a Computer Science undergraduate at HCMUT with experience in full-stack development, real-time systems, and scalable web applications." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img src="/icon.jpg" alt="Logo" class="logo-img">
-        Lâm Minh Tùng Quân</div>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#hero" class="brand">Lam Minh Tung Quan</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="about" class="hero">
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Software Engineer Portfolio</span>
+          <h1>Building reliable, scalable, and user-focused software.</h1>
+          <p class="hero-text">
+            I am <strong>Lam Minh Tung Quan</strong>, a Computer Science undergraduate at
+            <strong>HCMUT - VNUHCM</strong> with hands-on experience in full-stack development,
+            real-time applications, and open-source collaboration.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            <a href="https://drive.google.com/file/d/15ZwELrgqlTbvrQ53VV37tp_qkkTcObLd/view?usp=sharing" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">View CV</a>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <p class="card-label">Quick Profile</p>
+          <ul class="profile-list">
+            <li><span>Role</span><strong>Computer Science Undergraduate</strong></li>
+            <li><span>Focus</span><strong>Full-stack & Real-time Systems</strong></li>
+            <li><span>University</span><strong>HCMUT - VNUHCM</strong></li>
+            <li><span>Graduation</span><strong>Expected Nov 2027</strong></li>
+            <li><span>GPA</span><strong>3.2 / 4.0</strong></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
       <div class="container">
-        <span class="badge">Trường đại học Bách Khoa HCM-ĐHQG TPHCM</span>
-        <h1>Xin chào, mình là <span class="highlight">Quân</span></h1>
-        <p class="description">
-          Kỹ sư phần mềm tương lai với tư duy hệ thống.
-          Mình kết hợp <strong>logic lập trình</strong> và phát triển web.
-        </p>
-        <div class="cta-group">
-          <a href="#projects" class="btn btn-primary">Xem dự án</a>
-          <a href="#contact" class="btn btn-secondary">Liên hệ</a>
+        <div class="section-heading">
+          <span class="section-tag">About</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-panel">
+          <p>
+            I enjoy turning ideas into production-ready software with clean architecture,
+            practical problem-solving, and strong attention to user experience. My work spans
+            frontend engineering, backend APIs, CI/CD workflows, and real-time application features.
+          </p>
+          <p>
+            I am currently looking to grow as a software engineer by contributing to meaningful
+            products, learning from strong engineering teams, and building systems that are both
+            efficient and maintainable.
+          </p>
         </div>
       </div>
     </section>
 
-    <section id="experience">
-      <h2>Experience & Education</h2>
-      <div class="timeline" id="timeline-container"></div>
+    <section id="education" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Education</span>
+          <h2>Education & Experience Timeline</h2>
+        </div>
+        <div class="timeline" id="timeline-container"></div>
+      </div>
     </section>
 
-    <section id="projects">
-      <h2>Featured Projects</h2>
-      <div class="project-grid" id="project-grid"></div>
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Projects</span>
+          <h2>Selected Projects</h2>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </div>
     </section>
 
-    <footer id="contact">
-      <p>&copy; 2026 My Portfolio. All rights reserved.</p>
-      <p>Find me on social media:</p>
-      <a href="mailto:tungquanforwork0207@gmail.com" target="_blank" rel="noopener noreferrer">Email</a> |
-      <a href="https://www.facebook.com/quan.lamminhtung" target="_blank" rel="noopener noreferrer">Facebook</a> |
-      <a href="https://www.linkedin.com/in/qu%C3%A2n-l%C3%A2m-minh-t%C3%B9ng-80b451320/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-      <a href="https://github.com/Tung-Quan" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </footer>
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Skills</span>
+          <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section id="achievements" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Achievements</span>
+          <h2>Certifications & Awards</h2>
+        </div>
+        <div class="achievement-grid" id="achievement-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Let’s Connect</h3>
+        <p>
+          I am open to internship, project, and collaboration opportunities in software engineering.
+        </p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:tungquanforwork0207@gmail.com">tungquanforwork0207@gmail.com</a>
+        <a href="tel:0854936613">0854 936 613</a>
+        <a href="https://www.linkedin.com/in/qu%C3%A2n-l%C3%A2m-minh-t%C3%B9ng-80b451320/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/Tung-Quan" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.facebook.com/quan.lamminhtung" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Lam Minh Tung Quan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
